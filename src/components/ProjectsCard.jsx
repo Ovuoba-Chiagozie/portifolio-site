@@ -2,9 +2,10 @@ import { FiExternalLink } from "react-icons/fi";
 import AssignedLogo from '../assets/AssignedLogo.png'
 
 
-function projectCard ({link,file,project_title,link_title}) {
+function projectCard ({details_link,link,file,project_title,link_title}) {
     return (
         <li className='lg:max-w-[368px]'> 
+        <a href={`/work/${details_link}`}>
         <div className="w-full hover:translate-y-[-10px] duration-300">
         <div className="flex h-44 bg-[#f0eff99e] justify-center items-center">
           <div className='w-44'>
@@ -19,6 +20,7 @@ function projectCard ({link,file,project_title,link_title}) {
                   </a>
           </div>
         </div>
+        </a>
         </li>
     )
 }

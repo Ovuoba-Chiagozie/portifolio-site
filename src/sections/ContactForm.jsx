@@ -20,7 +20,7 @@ function ContactForm() {
 
   const onSubmit = async (formData) => {
     console.log(formData);
-    setLoading((prevState) => (prevState = true));
+    setLoading(true);
 
     try {
       const response = await fetch("http://localhost:5000/api/send-email", {
@@ -45,7 +45,7 @@ function ContactForm() {
   };
 
   return (
-    <section className="py-12 max-w-5xl mx-auto px-8">
+    <section className="max-w-5xl px-8 py-12 mx-auto">
       <Fade 
       in={alertVisibility}  
       timeout={{ enter: 1000, exit: 5000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
@@ -84,7 +84,7 @@ function ContactForm() {
             className="flex flex-col"
             onSubmit={handleSubmit(onSubmit)}
           >
-            <div className="mb-5 flex flex-col">
+            <div className="flex flex-col mb-5">
               <label
                 htmlFor="firstName"
                 className="font-[Verdana] text-lg mb-2"
@@ -101,7 +101,7 @@ function ContactForm() {
                 <p className="text-red-600">This field is required</p>
               )}
             </div>
-            <div className="mb-5 flex flex-col">
+            <div className="flex flex-col mb-5">
               <label
                 htmlFor="secondName"
                 className="font-[Verdana] text-lg mb-2"
@@ -118,7 +118,7 @@ function ContactForm() {
                 <p className="text-red-600">This field is required</p>
               )}
             </div>
-            <div className="mb-5 flex flex-col">
+            <div className="flex flex-col mb-5">
               <label htmlFor="email" className="font-[Verdana] text-lg mb-2">
                 Email
               </label>
@@ -136,7 +136,7 @@ function ContactForm() {
                 <p className="text-red-600">Email must be valid</p>
               )}
             </div>
-            <div className="mb-5 flex flex-col">
+            <div className="flex flex-col mb-5">
               <label htmlFor="message" className="font-[Verdana] text-lg mb-2">
                 Message
               </label>

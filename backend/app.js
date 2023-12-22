@@ -1,8 +1,9 @@
+/* eslint-disable */
 const express = require('express')
 const app = express()
 const cors = require('cors')
 require('dotenv').config()
-const api = require('./routes/api')
+const api = require('./routes/api')   
 app.use(cors({
     'allowedHeaders': ['Content-Type'],
     'origin': '*',

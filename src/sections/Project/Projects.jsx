@@ -1,9 +1,8 @@
-import { useEffect, useState } from "react";
 import ProjectCard from "../../components/ProjectsCard";
 import PROJECTS_ARRAY from "./projectsArray";
 
 function Projects() {
-  const [projects, setProjects] = useState([]);
+ 
   
   return (
     <section className="py-12 max-w-5xl mx-auto">
@@ -21,6 +20,7 @@ function Projects() {
               (
                 <ProjectCard
                   key={project.id}
+                  details_link={project.id}
                   link={project.link}
                   project_title={project.project_title}
                   link_title={project.link_title}

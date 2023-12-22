@@ -1,14 +1,15 @@
 import NavBar from "../components/navBar"
 import ContactForm from "./ContactForm"
 import Footer from "./Footer"
+import {Outlet} from 'react-router-dom'
 
-function Layout ({children})  {
+function Layout ()  {
 
 
     return (
        <>
        <NavBar />
-        {children}
+        <Outlet />
        <ContactForm />
        <Footer />
        </>

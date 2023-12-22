@@ -1,7 +1,7 @@
-import engineer from "../assets/engineer.jpg";
+import engineer from "../assets/engineer.png";
 function Home() {
   return (
-    <section className="pt-56 pb-16 md:pb-32 max-w-5xl flex-col md:flex-row flex items-center mx-auto">
+    <section className="flex flex-col items-center max-w-5xl pt-32 pb-16 mx-auto md:pb-32 md:flex-row">
       <div className="flex px-8 basis-7/12">
         <div className="">
           <h1 className="my-6 font-bold">
@@ -10,7 +10,7 @@ function Home() {
               Chiagozie
             </div>
           </h1>
-          <p className="text-lg mb-4">
+          <p className="mb-4 text-lg">
             A full-stack software engineer with a history of helping startups
             build fully featured products that are reliable, scales, and easy to
             maintain.
@@ -31,7 +31,7 @@ function Home() {
           </div>
         </div>
       </div>
-      <div className="basis-5/12 px-4 flex mt-16 md:m-0">
+      <div className="flex px-4 mt-16 basis-5/12 md:m-0">
         <img src={engineer} alt="engineer" className="w-full" />
       </div>
     </section>
