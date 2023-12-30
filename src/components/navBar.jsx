@@ -1,4 +1,4 @@
-import PROFILE from "../assets/profile-picture.jpg";
+import PROFILE from "/assets/profile-picture.jpg";
 import { useState, useEffect } from "react";
 
 function NavBar() {
