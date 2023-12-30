@@ -10,13 +10,13 @@ const sendEmail = async (req, res) => {
       port: 587,
       secure: false,
       auth: {
-        user: "ovuobachiagozie@gmail.com",
-        pass: "wtpcuwajnlgtguhe",
+        user: process.env.MAIL,
+        pass: process.env.PASS,
       },
     };
     const data = {
-      from: "ovuobachiagozie@gmail.com",
-      to: "ovuobachiagozie@gmail.com",
+      from: process.env.MAIL,
+      to: process.env.MAIL,
       subject: "New Client opportunity from Porfolio site",
       text: `Hey chiagozie, I'm ${firstName} ${secondName}. I'm reaching out because : ${message}, you can reach out to me at EMAIL: ${email}`,
     };

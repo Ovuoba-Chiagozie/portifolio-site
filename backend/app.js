@@ -17,13 +17,6 @@ app.use(express.urlencoded())
 app.set('json spaces',2)
 app.use('/', api)
 
-// app.get('/', (req,res) => {
- 
-//     res.status(200).json({
-//         success:'true'
-//     })
-// })
-
 const port = process.env.PORT || 5000
 
 app.listen(port, () => {

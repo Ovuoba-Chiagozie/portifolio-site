@@ -11,6 +11,7 @@ function NavBar() {
   return (
     <nav className="max-w-5xl mx-auto bg-white px-8 py-4 fixed right-0 left-0 z-20">
       <div className="flex justify-between items-center">
+        <a href="/">
       <div className="items-center flex text-base py-1 box-content font-bold">
         <img
           src={PROFILE}
@@ -19,6 +20,7 @@ function NavBar() {
         />
         <span className="text-xl text-black">Chiagozie</span>
       </div>
+      </a>
       <button
         onClick={handleClick}
         className="flex flex-col justify-center items-center md:hidden"
@@ -48,19 +50,19 @@ function NavBar() {
         } flex-col bg-white shadow-md justify-around text-base text-black gap-5 ease-in-out transition-all`}
       >
         <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
-          <a href="#">Home</a>
+          <a href="/">Home</a>
         </li>
         <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
-          <a href="#">About</a>
+          <a href="#about">About</a>
         </li>
-        <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
+        {/* <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
           <a href="#">Services</a>
+        </li> */}
+        <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
+          <a href="#projects">Projects</a>
         </li>
         <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
-          <a href="#">Projects</a>
-        </li>
-        <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
-          <a href="#">Contact</a>
+          <a href="#contact">Contact</a>
         </li>
       </ul>
       </div>

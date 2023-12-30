@@ -17,13 +17,13 @@ function Home() {
           </p>
           <div className="flex flex-col md:flex-row">
             <a
-              href="#"
+              href="#projects"
               className="py-3 px-7 bg-[#eeeeee] text-center rounded-full font-bold my-3 mr-3 hover:text-[#ffc200]"
             >
               My Work
             </a>
             <a
-              href="#"
+              href="#contact"
               className="py-3 px-7 bg-[#474559] text-white text-center rounded-full font-bold my-3 hover:bg-[#ffc200]"
             >
               Contact Me

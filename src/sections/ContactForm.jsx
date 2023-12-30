@@ -6,11 +6,11 @@ import Fade from "@mui/material/Fade";
 
 function ContactForm() {
   const [loading, setLoading] = useState(false);
-  const [alertVisibility,setAlertVisibility] = useState(false)
+  const [alertVisibility, setAlertVisibility] = useState(false);
   const [alert, setAlert] = useState({
     message: "",
-    type: 'success'
-  })
+    type: "success",
+  });
 
   const {
     register,
@@ -19,7 +19,6 @@ function ContactForm() {
   } = useForm();
 
   const onSubmit = async (formData) => {
-    console.log(formData);
     setLoading(true);
 
     try {
@@ -32,28 +31,27 @@ function ContactForm() {
       });
 
       const res = await response.json();
-      setAlert(res)
+      setAlert(res);
       setLoading(false);
-      setAlertVisibility(true)
-      console.log(res);
+      setAlertVisibility(true);
     } catch (error) {
       console.log(error);
-      setAlert(error)
+      setAlert(error);
       setLoading(false);
-      setAlertVisibility(true)
+      setAlertVisibility(true);
     }
   };
 
   return (
-    <section className="max-w-5xl px-8 py-12 mx-auto">
-      <Fade 
-      in={alertVisibility}  
-      timeout={{ enter: 1000, exit: 5000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
-      addEndListener={() => {
-        setTimeout(() => {
-          setAlertVisibility(false)
-        }, 2000);
-      }}
+    <section className="max-w-5xl px-8 py-12 mx-auto" id="contact">
+      <Fade
+        in={alertVisibility}
+        timeout={{ enter: 1000, exit: 5000 }} //Edit these two values to change the duration of transition when the element is getting appeared and disappeard
+        addEndListener={() => {
+          setTimeout(() => {
+            setAlertVisibility(false);
+          }, 2000);
+        }}
       >
         <Alert
           className="fixed top-28 left-[50%] translate-x-[-50%] z-50 w-full max-w-xs justify-center"
@@ -72,9 +70,9 @@ function ContactForm() {
             Let's work together!
           </h2>
           <h3 className="mt-6 text-lg text-black">
-            I'm always down to working on new projects. If you want to reach
-            out, I respond to every message sent through this form. <br /> But
-            you can also email directly to{" "}
+            I'm always down to working on new projects. <br/> If you want to reach
+            out, I respond to every message sent through this form- but make
+            sure the email is valid. <br />You can also email directly to{" "}
             <span className="font-bold">ovuobachiagozie@gmail.com</span>
           </h3>
         </div>
