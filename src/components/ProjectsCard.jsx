@@ -1,5 +1,4 @@
 import { FiExternalLink } from "react-icons/fi";
-import AssignedLogo from '../assets/AssignedLogo.png'
 
 
 function projectCard ({details_link,link,file,project_title,link_title}) {
