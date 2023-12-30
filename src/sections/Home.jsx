@@ -1,4 +1,4 @@
-import engineer from "../assets/engineer.png";
+import engineer from "/assets/engineer.png";
 function Home() {
   return (
     <section className="flex flex-col items-center max-w-5xl pt-32 pb-16 mx-auto md:pb-32 md:flex-row">

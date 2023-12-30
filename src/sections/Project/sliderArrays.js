@@ -4,14 +4,14 @@ const PROJECTS_ARRAY = [
     project_title: "Getassigned",
     link_title: "app.getassigned.com",
     link: "https://getassigned.com/",
-    file: "/src/assets/AssignedLogo.png",
+    file: "/assets/AssignedLogo.png",
   },
   {
     id: "86829972-5011-4c5b-a70c-aab4bd610a0c",
     project_title: "TagU",
     link_title: "trytagu.com",
     link: "https://www.trytagu.com/",
-    file: "/src/assets/TaguLogo.svg",
+    file: "/assets/TaguLogo.svg",
   },
   {
     id: "040ceb13-08c4-43c1-8355-6c582aab701c",
@@ -25,7 +25,7 @@ const PROJECTS_ARRAY = [
     project_title: "9Anime",
     link_title: "9anime.github.io",
     link: "https://ovuoba-chiagozie.github.io/9anime-clone/",
-    file: "/src/assets/9-animeLogo.png",
+    file: "/assets/9-animeLogo.png",
   },
 ];
 

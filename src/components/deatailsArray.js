@@ -2,12 +2,12 @@ const detailsArray = [
   {
     id: "033b7202-6e55-466b-bb71-73907b731b3e",
     slider_images: [
-      "/src/assets/getassigned.com.png",
-      "/src/assets/app.getassigned.com_home.png",
-      "/src/assets/app.getassigned.com_checkout.png",
-      "/src/assets/app.getassigned.com_pricing.png",
-      "/src/assets/app.getassigned.com_signup.png",
-      "/src/assets/app.getassigned.com_variantmedia.png",
+      "/assets/getassigned.com.png",
+      "/assets/app.getassigned.com_home.png",
+      "/assets/app.getassigned.com_checkout.png",
+      "/assets/app.getassigned.com_pricing.png",
+      "/assets/app.getassigned.com_signup.png",
+      "/assets/app.getassigned.com_variantmedia.png",
     ],
     paragraphs: [
       "Getassigned is a SaaS product where the main feature is to allow you to handle the full cycle of  managing internal and external projects in an organization. Mainly by assigning tasks to anyone without need of any other third party CRM or tool and no stretched out onboarding process",
@@ -18,9 +18,9 @@ const detailsArray = [
   {
     id: "86829972-5011-4c5b-a70c-aab4bd610a0c",
     slider_images: [
-      "/src/assets/www.trytagu.com3.png",
-      "/src/assets/www.trytagu.com2.png",
-      "/src/assets/www.trytagu.com1.png",
+      "/assets/www.trytagu.com3.png",
+      "/assets/www.trytagu.com2.png",
+      "/assets/www.trytagu.com1.png",
     ],
     paragraphs: [
       "TagU is a SaaS tool that helps you make comments on websites. A little like how you have sticky notes your notebook or how figma and Google Docs allow you to leave comments on your document.",
@@ -32,10 +32,10 @@ const detailsArray = [
   {
     id: "040ceb13-08c4-43c1-8355-6c582aab701c",
     slider_images: [
-      "/src/assets/ovuoba-chiagozie.github.io_graphing-app1.png",
-      "/src/assets/ovuoba-chiagozie.github.io_graphing-app2.png",
-      "/src/assets/ovuoba-chiagozie.github.io_graphing-app3.png",
-      "/src/assets/ovuoba-chiagozie.github.io_graphing-app4.png",
+      "/assets/ovuoba-chiagozie.github.io_graphing-app1.png",
+      "/assets/ovuoba-chiagozie.github.io_graphing-app2.png",
+      "/assets/ovuoba-chiagozie.github.io_graphing-app3.png",
+      "/assets/ovuoba-chiagozie.github.io_graphing-app4.png",
     ],
     paragraphs: [
       "You know like back in school where they would give you an equation and tell you to interpret it as a line graph ?",
@@ -46,11 +46,11 @@ const detailsArray = [
   {
     id: "e26badb4-80d4-4b21-941c-1316ded489fa",
     slider_images: [
-      "/src/assets/ovuoba-chiagozie.github.io_9anime-clone_.png",
-      "/src/assets/ovuoba-chiagozie.github.io_9anime-clone1.png",
-      "/src/assets/ovuoba-chiagozie.github.io_9anime-clone2.png",
-      "/src/assets/ovuoba-chiagozie.github.io_9anime-clone3.png",
-      "/src/assets/ovuoba-chiagozie.github.io_9anime-clone4.png",
+      "/assets/ovuoba-chiagozie.github.io_9anime-clone_.png",
+      "/assets/ovuoba-chiagozie.github.io_9anime-clone1.png",
+      "/assets/ovuoba-chiagozie.github.io_9anime-clone2.png",
+      "/assets/ovuoba-chiagozie.github.io_9anime-clone3.png",
+      "/assets/ovuoba-chiagozie.github.io_9anime-clone4.png",
     ],
     paragraphs: [
       "Hey super anime fan here. Recreated my favourite anime streaming site with fully functioning ui and features including being able to search for available anime.",
