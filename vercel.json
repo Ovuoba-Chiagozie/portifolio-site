@@ -3,7 +3,8 @@
     {
       "src": "/backend/app.js",
       "use": "@vercel/node"
-    }
+    },
+    { "src": "package.json", "use": "@vercel/static-build" }
   ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/" },
