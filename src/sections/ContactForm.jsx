@@ -5,6 +5,7 @@ import Alert from "@mui/material/Alert";
 import Fade from "@mui/material/Fade";
 
 function ContactForm() {
+  let url = ''
   const [loading, setLoading] = useState(false);
   const [alertVisibility, setAlertVisibility] = useState(false);
   const [alert, setAlert] = useState({
@@ -19,10 +20,15 @@ function ContactForm() {
   } = useForm();
 
   const onSubmit = async (formData) => {
+    if(process.env.NODE_ENV === 'development') {
+      url = 'http://localhost:5000'
+    } else {
+      url = 'https://ovuobachiagozie-backend.vercel.app'
+    }
     setLoading(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/send-email", {
+      const response = await fetch(`${url}/api/send-email`, {
         method: "POST",
         body: JSON.stringify(formData),
         headers: {

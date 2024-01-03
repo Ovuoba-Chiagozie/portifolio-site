@@ -3,12 +3,11 @@ const express = require("express");
 const route = express.Router();
 const { sendEmail } = require("../controllers/getProjects");
 
-route.get('/', async (req,res) => {
- 
+route.get("/", async (req, res) => {
   res.status(200).json({
-    success:'true'
-  })
-})
-route.post('/api/send-email', sendEmail)
+    success: "true",
+  });
+});
+route.post("/api/send-email", sendEmail);
 
-module.exports = route
+module.exports = route;
