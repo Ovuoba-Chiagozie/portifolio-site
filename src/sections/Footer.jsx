@@ -19,12 +19,12 @@ function Footer() {
           <div className="">
             <h1 className="text-lg font-bold uppercase">Social</h1>
             <div className="flex gap-4 mt-5">
-              <a
+{/*               <a
                 href="https://www.linkedin.com/in/chiagozie-ovuoba-77bb24268"
                 target="_blank"
               >
                 <FaLinkedin size={"1.35rem"} />
-              </a>
+              </a> */}
               <a href="https://github.com/Ovuoba-Chiagozie" target="_blank">
                 <FaGithub size={"1.35rem"} />
               </a>
