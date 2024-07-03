@@ -17,7 +17,7 @@ function reviewContainer({ project }) {
 
 function Testimonials() {
   return (
-    <section className="max-w-5xl px-3 md:px-8 py-12 mx-auto">
+    <section className="max-w-5xl px-3 md:px-8 py-12 mx-auto" id="testimonials">
       <div className="flex items-center font-bold text-3xl justify-center mb-11">
         <span className="opacity-50 text-4xl ">/</span>
         <span className="text-black">Testimonials.</span>
