@@ -20,15 +20,24 @@ function Experience() {
               key={`${job.company}-${job.years}`}
               className="py-8 first:pt-2 md:grid md:grid-cols-[140px_1fr] md:gap-8"
             >
-              <p className="text-sm text-black/50 mb-2 md:mb-0 md:pt-1">
-                {job.years}
+              <p className="mb-2 md:mb-0 md:pt-1">
+                <span className="px-3 py-1 inline-flex rounded-[4px] text-sm text-[#0068d1] items-center bg-[#ebf5ff]">
+                  {job.years}
+                </span>
               </p>
               <div>
                 <h3 className="font-bold text-xl text-black">{job.company}</h3>
                 <p className="text-black/60 mt-1 mb-4">{job.role}</p>
                 <p className="mb-4 leading-relaxed">{job.paragraph}</p>
-                <p className="text-sm text-black/50">
-                  {job.stack.join(" · ")}
+                <p className="text-sm flex flex-wrap gap-2">
+                  {job.stack.map((tech) => (
+                    <span
+                      key={tech}
+                      className="bg-[#ffc200] px-3 py-1 rounded-full"
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </p>
               </div>
             </li>
