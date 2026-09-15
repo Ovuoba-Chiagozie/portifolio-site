@@ -55,6 +55,9 @@ function NavBar() {
         <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
           <a href="#about">About</a>
         </li>
+        <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
+          <a href="#experience">Experience</a>
+        </li>
         {/* <li className="px-2 py-2 w-full text-center hover:bg-gray-300 md:hover:bg-inherit md:hover:text-[#ffc200] rounded-md">
           <a href="#">Services</a>
         </li> */}
