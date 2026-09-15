@@ -1,5 +1,19 @@
 const detailsArray = [
   {
+    id: "a7f3c2e1-9b4d-4e8a-91c6-5d2f8b0e3a17",
+    slider_images: [
+      "/assets/rendria.com.png",
+      "/assets/rendria.com_signin.png",
+      "/assets/rendria.com_templates.png",
+      "/assets/rendria.com_bulkcsv.png",
+    ],
+    paragraphs: [
+      "Rendria is an API-first design automation tool that lets you generate thousands of image variations programmatically, product images, social posts, OG images, and marketing graphics, without manually recreating each one in a tool like Canva. The core idea is simple: design a template once, then generate variations at scale, whether that's a single image through the playground, or thousands at once via CSV bulk generation.",
+      "I was brought in as a fullstack engineer, though most of my work has been on the backend and infrastructure side. I built the server-side rendering pipeline (using headless Chromium on AWS Lambda) that powers pixel-perfect image exports in PNG, JPEG, and WebP, architected the render API with authentication, validation, and usage/credits tracking, and worked on the drag-and-drop canvas editor and template system on the frontend.",
+      "Some of the tech stack I worked with: React, Node.js, AWS Lambda, Puppeteer, Cloudinary, and TailwindCSS.",
+    ],
+  },
+  {
     id: "033b7202-6e55-466b-bb71-73907b731b3e",
     slider_images: [
       "/assets/getassigned.com.png",

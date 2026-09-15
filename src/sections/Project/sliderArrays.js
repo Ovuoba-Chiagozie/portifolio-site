@@ -1,5 +1,12 @@
 const PROJECTS_ARRAY = [
   {
+    id: "a7f3c2e1-9b4d-4e8a-91c6-5d2f8b0e3a17",
+    project_title: "Rendria",
+    link_title: "rendria.com",
+    link: "https://rendria.com",
+    file: "/assets/RendriaLogo.svg",
+  },
+  {
     id: "033b7202-6e55-466b-bb71-73907b731b3e",
     project_title: "Getassigned",
     link_title: "app.getassigned.com",
