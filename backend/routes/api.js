@@ -1,7 +1,7 @@
 /* eslint-disable */
 const express = require("express");
 const route = express.Router();
-const { sendEmail } = require("../controllers/getProjects");
+const { sendEmail } = require("../controllers/email");
 
 route.get("/", async (req, res) => {
   res.status(200).json({
