@@ -46,7 +46,7 @@ function Experience() {
 
         <div className="pt-4">
           <a
-            href="/assets/Ovuoba_Chiagozie_Resume.pdf"
+            href="/assets/Resume_Software.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="underline underline-offset-4 hover:text-[#ffc200]"
